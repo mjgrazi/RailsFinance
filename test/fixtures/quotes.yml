@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  symbol: MyString
+  date: 2014-05-18
+  open: 9.99
+  close: 9.99
+  high: 9.99
+  low: 9.99
+  volume: 1
+
+two:
+  symbol: MyString
+  date: 2014-05-18
+  open: 9.99
+  close: 9.99
+  high: 9.99
+  low: 9.99
+  volume: 1

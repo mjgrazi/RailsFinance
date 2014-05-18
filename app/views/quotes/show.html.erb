@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Symbol:</strong>
+  <%= @quote.symbol %>
+</p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @quote.date %>
+</p>
+
+<p>
+  <strong>Open:</strong>
+  <%= @quote.open %>
+</p>
+
+<p>
+  <strong>Close:</strong>
+  <%= @quote.close %>
+</p>
+
+<p>
+  <strong>High:</strong>
+  <%= @quote.high %>
+</p>
+
+<p>
+  <strong>Low:</strong>
+  <%= @quote.low %>
+</p>
+
+<p>
+  <strong>Volume:</strong>
+  <%= @quote.volume %>
+</p>
+
+<%= link_to 'Edit', edit_quote_path(@quote) %> |
+<%= link_to 'Back', quotes_path %>
